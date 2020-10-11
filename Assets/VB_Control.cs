@@ -40,5 +40,7 @@ public class VB_Control : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        vbBtnObj = GameObject.Find("VirtualButton");
+        Avatar = GameObject.Find("Drunk Walk");
     }
 }
